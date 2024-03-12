@@ -22,7 +22,14 @@ struct UserView: View {
                 .onTapGesture {
                     isSheetPresented = true
                 }
-            Text("User")
+            Text("Tap on image to change it")
+            HStack {
+                VStack(alignment: .leading) {
+                    Text("Person Name")
+                    Text("Person Address")
+                }
+                Spacer()
+            }
         }
         .sheet(isPresented: $isSheetPresented, content: {
             ImagePickerView(selectedImage: $image)
