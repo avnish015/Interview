@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1990598B2BA0B8240037058F /* SwiftUIToUIKIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIToUIKIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1990598B2BA0B8240037058F /* SwiftUIToUIIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIToUIIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1990598E2BA0B8240037058F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		199059902BA0B8240037058F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		199059922BA0B8240037058F /* ContainerViewContorller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewContorller.swift; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 		1990598C2BA0B8240037058F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1990598B2BA0B8240037058F /* SwiftUIToUIKIKit.app */,
+				1990598B2BA0B8240037058F /* SwiftUIToUIIKit.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,9 +100,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1990598A2BA0B8240037058F /* SwiftUIToUIKIKit */ = {
+		1990598A2BA0B8240037058F /* SwiftUIToUIIKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1990599F2BA0B8260037058F /* Build configuration list for PBXNativeTarget "SwiftUIToUIKIKit" */;
+			buildConfigurationList = 1990599F2BA0B8260037058F /* Build configuration list for PBXNativeTarget "SwiftUIToUIIKit" */;
 			buildPhases = (
 				199059872BA0B8240037058F /* Sources */,
 				199059882BA0B8240037058F /* Frameworks */,
@@ -112,9 +112,9 @@
 			);
 			dependencies = (
 			);
-			name = SwiftUIToUIKIKit;
+			name = SwiftUIToUIIKit;
 			productName = SwiftUIToUIKIKit;
-			productReference = 1990598B2BA0B8240037058F /* SwiftUIToUIKIKit.app */;
+			productReference = 1990598B2BA0B8240037058F /* SwiftUIToUIIKit.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -132,7 +132,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 199059862BA0B8240037058F /* Build configuration list for PBXProject "SwiftUIToUIKIKit" */;
+			buildConfigurationList = 199059862BA0B8240037058F /* Build configuration list for PBXProject "SwiftUIToUIIKit" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -145,7 +145,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1990598A2BA0B8240037058F /* SwiftUIToUIKIKit */,
+				1990598A2BA0B8240037058F /* SwiftUIToUIIKit */,
 			);
 		};
 /* End PBXProject section */
@@ -376,7 +376,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		199059862BA0B8240037058F /* Build configuration list for PBXProject "SwiftUIToUIKIKit" */ = {
+		199059862BA0B8240037058F /* Build configuration list for PBXProject "SwiftUIToUIIKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1990599D2BA0B8260037058F /* Debug */,
@@ -385,7 +385,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1990599F2BA0B8260037058F /* Build configuration list for PBXNativeTarget "SwiftUIToUIKIKit" */ = {
+		1990599F2BA0B8260037058F /* Build configuration list for PBXNativeTarget "SwiftUIToUIIKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				199059A02BA0B8260037058F /* Debug */,
