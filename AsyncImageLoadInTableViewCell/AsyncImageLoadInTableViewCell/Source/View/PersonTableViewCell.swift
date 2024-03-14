@@ -10,6 +10,7 @@ import UIKit
 class PersonTableViewCell: UITableViewCell {
     
     static let reusableIdentifier = "PersonTableViewCell"
+    var downloadTaskId: UUID?
     
     let iconView = {
         let imageView = UIImageView()
@@ -36,7 +37,7 @@ class PersonTableViewCell: UITableViewCell {
     var person: Person? {
         didSet {
             guard let person = person else { return }
-            self.iconView.load(string: person.imageURL)
+            self.downloadTaskId = self.iconView.load(string: person.imageURL)
             titleLabel.text = person.name
             subTitleLabel.text = person.emailId
         }
@@ -49,6 +50,11 @@ class PersonTableViewCell: UITableViewCell {
 
     required init?(coder: NSCoder) {
         fatalError("init?(coder: NSCoder) called")
+    }
+    
+    override func prepareForReuse() {
+        super.prepareForReuse()
+        iconView.cancelDownloading(uuid: downloadTaskId)
     }
     
     func addSubViews() {

@@ -16,6 +16,7 @@
 		199059D22BA1F38D0037058F /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199059D12BA1F38D0037058F /* PersonTableViewCell.swift */; };
 		199059D52BA1F9700037058F /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199059D42BA1F9700037058F /* Person.swift */; };
 		199059D82BA1FE2A0037058F /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199059D72BA1FE2A0037058F /* UIImage+Extension.swift */; };
+		199059DA2BA2EE990037058F /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199059D92BA2EE990037058F /* ImageDownloader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		199059D12BA1F38D0037058F /* PersonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
 		199059D42BA1F9700037058F /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		199059D72BA1FE2A0037058F /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		199059D92BA2EE990037058F /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				199059D72BA1FE2A0037058F /* UIImage+Extension.swift */,
+				199059D92BA2EE990037058F /* ImageDownloader.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 			files = (
 				199059D52BA1F9700037058F /* Person.swift in Sources */,
 				199059D82BA1FE2A0037058F /* UIImage+Extension.swift in Sources */,
+				199059DA2BA2EE990037058F /* ImageDownloader.swift in Sources */,
 				199059BB2BA1D1B10037058F /* PersonListViewController.swift in Sources */,
 				199059B72BA1D1B10037058F /* AppDelegate.swift in Sources */,
 				199059B92BA1D1B10037058F /* SceneDelegate.swift in Sources */,
